@@ -1,0 +1,17 @@
+Compte Rendu
+
+Ant+Ivy
+
+I]
+
+https://github.com/LucasDiMartino/ant-ivy
+
+4)  Le programme principale se contente d'afficher des messages sur la sortie standard.
+5)  javac permet de compiler (java compiler), et java permet de lancer le programme (exécution).
+8)  javac n'arrive pas à résoudre certains symboles lors de la compilation.
+    le tag "ivy :cachepath" permet de gérer le chemin des dépendances.
+10) At a ajouté 6 artefacts.
+
+II]
+
+
