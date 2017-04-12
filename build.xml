@@ -82,7 +82,7 @@
         <ivy:cachepath pathid="lib.path.id"/>
     </target>
 
-    <target name="go" depends="install-ivy, resolve" 
+    <target name="go" depends="install-ivy, resolve, report" 
             description="--> resolve dependencies, compile and run the project">
 		<echo message="using ivy to resolve commons-lang 2.1..."/>
         <!-- here comes the magic line: asks ivy to resolve a dependency on 
@@ -158,4 +158,8 @@ public class Hello {
 		    </classpath>
 		</java>
 	</target>
+        <target name="report">
+            <mkdir dir="report" />
+            <ivy:report todir="report" />
+        </target>
 </project>
